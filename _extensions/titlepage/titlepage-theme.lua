@@ -242,8 +242,8 @@ This function assigns the themevals to the meta data
         ["elements"] = {
           pandoc.MetaInlines{pandoc.RawInline("latex","\\titleblock")}, 
           pandoc.MetaInlines{pandoc.RawInline("latex","\\authorblock")},
-          pandoc.MetaInlines{pandoc.RawInline("latex","\\vfill")},
           pandoc.MetaInlines{pandoc.RawInline("latex","\\logoblock")},
+          pandoc.MetaInlines{pandoc.RawInline("latex","\\dateblock")},
           pandoc.MetaInlines{pandoc.RawInline("latex","\\footerblock")}
           },
         ["page-align"] = "center",
